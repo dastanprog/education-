@@ -36,3 +36,4 @@ print("\nAB (умножение A и B):", result_c_AB_3)
 print("BC (умножение B и C):", result_c_BC_3)
 
 print("\nОбратная матрица для A:", A_inv_3)
+# Хорошо
