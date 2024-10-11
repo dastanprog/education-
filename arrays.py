@@ -20,3 +20,4 @@ print("а)1", 2*c + 5*d)
 print("а)2", c-3*d)
 print("b",b_trans )
 print("d",mat, A_mat)
+# Отлично
