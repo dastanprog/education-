@@ -1,0 +1,13 @@
+def print_letter_info(letter):
+  """Печатает информацию о букве: код и символ."""
+  print(f">>> ord('{letter}')")
+  print(ord(letter))
+  print(f">>> chr({ord(letter)})")
+  print(chr(ord(letter)))
+  print(">>>")
+
+name = "ДАСТАН"
+
+for letter in name:
+  print_letter_info(letter)
+
