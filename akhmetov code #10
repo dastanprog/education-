@@ -1,0 +1,13 @@
+import math
+
+def calc(x):
+    if x > 0:
+        return x*2 + 2 * math.sqrt(x*2 - 2*x + 1)
+    elif x == 0:
+        return x*2 - 2 * x
+    else:
+        return math.sqrt(abs(x))
+
+for x in range(-5, 6):
+    y = calc(x)
+    print(f"x = {x}, y = {y}")
