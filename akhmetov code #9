@@ -1,0 +1,9 @@
+e = [75, 85, 90, 106]
+e[0] = 'dastan'
+e[1] = 'timur'
+e[2] = 'aina'
+e[3] = 'aigerim'
+print(e)
+print("Максимальное значение:", max(e))
+print("Минимальное значение:", min(e))
+
